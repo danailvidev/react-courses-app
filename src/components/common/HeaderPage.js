@@ -5,10 +5,10 @@ import './header.css';
 const HeaderPage = () => {
   return (
 
-    <nav>
-      <NavLink exact to="/" activeClassName="active">Home</NavLink>
-      {" | "}
-      <NavLink to="/about" activeClassName="active">About</NavLink>
+    <nav className="nav nav-masthead justify-content-center">
+      <NavLink exact to="/" activeClassName="active" className="nav-link">Home</NavLink>
+      <NavLink to="/courses" activeClassName="active" className="nav-link">Courses</NavLink>
+      <NavLink to="/about" activeClassName="active" className="nav-link">About</NavLink>
     </nav>
 
   );

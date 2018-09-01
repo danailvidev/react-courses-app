@@ -2,7 +2,7 @@ import React from 'react';
 
 const FooterPage = () => {
   return (
-    <div className="container-fluid">
+    <div className="mastfoot">
       Footer
     </div>
   );
