@@ -1,9 +1,14 @@
 import React from 'react';
 
-const FooterPage = () => {
+const FooterPage = ({authors, courses}) => {
   return (
     <div className="mastfoot">
-      Footer
+      <span>
+        Total Authors: {authors.length}
+        </span>
+      <span>
+        Total Courses: {courses.length}
+      </span>
     </div>
   );
 };
